@@ -1,0 +1,30 @@
+
+{
+    "idFlow": "Flow_0",
+    "beanList": [
+        {
+          "businessClass": "it.selexelsag.flowmanager.businessTest.TestBusinessClass",
+          "beanId": "BeanId_3",
+          "outputBeanIds": "BeanId_4(0:0),FLOW_INPUT(0:0)",
+          "value": "RUN_START_OK"
+         },
+        {
+          "businessFlow": "config.flows.json.flowTest",
+          "beanId": "BeanId_4",
+          "outputBeanIds": "FLOW_OUTPUT(0:0)",
+          "value": "RUN_END_OK"
+         },
+		  {
+          "businessClass": "it.selexelsag.flowmanager.businessTest.TestBusinessClass",
+          "beanId": "BeanId_5",
+          "outputBeanIds": "FLOW_INPUT(0:0)",
+          "value": "RUN_START_OK"
+         },
+        {
+          "beanId": "FLOW_OUTPUT"
+        },
+        {
+          "beanId": "FLOW_INPUT"
+        }
+    ]
+ }
