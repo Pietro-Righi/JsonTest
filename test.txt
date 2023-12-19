@@ -1,0 +1,41 @@
+[{
+            "businessClass": "aa",
+            "beanId": "BeanId_3",
+            "outputBeanIds": "BeanId_4(0:0),BeanId_4(0:1),BeanId_5(0:1),FLOW_INPUT(0:0)",
+            "value": "RUN_START_OK",
+            "Coordinates": "1"
+},
+        {
+            "businessClass": "ss",
+            "beanId": "BeanId_4",
+            "outputBeanIds": "BeanId_5(0:0),BeanId_7(1:1)",
+            "value": "RUN_START_OK",
+            "Coordinates": "2"
+        },
+        {
+            "businessClass": "dd",
+            "beanId": "BeanId_5",
+            "outputBeanIds": "BeanId_6(0:0),BeanId_7(1:2)",
+            "value": "RUN_START_OK",
+            "Coordinates": "3"
+        },
+        {
+            "businessClass": "ff",
+            "beanId": "BeanId_6",
+            "outputBeanIds": "BeanId_7(0:0)",
+            "value": "RUN_START_OK",
+            "Coordinates": "4"
+        },
+        {
+            "businessClass": "gg",
+            "beanId": "BeanId_7",
+            "outputBeanIds": "FLOW_OUTPUT(0:0)",
+            "value": "RUN_END_OK",
+            "Coordinates": "5"
+        },
+        {
+            "beanId": "FLOW_OUTPUT"
+        },
+        {
+            "beanId": "FLOW_INPUT"
+        }]
